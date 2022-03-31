@@ -1,0 +1,22 @@
+<resources>
+    <!--Textos-->
+    <dimen name="tx_8">8dp</dimen>
+    <dimen name="tx_10">10sp</dimen>
+    <dimen name="tx_12">10sp</dimen>
+    <dimen name="tx_14">12sp</dimen>
+    <dimen name="tx_16">14sp</dimen>
+    <dimen name="tx_18">18sp</dimen>
+    <dimen name="tx_22">20sp</dimen>
+    <dimen name="tx_tc">22sp</dimen>
+
+    <!--Imagens-->
+    <dimen name="im_2">2dp</dimen>
+    <dimen name="im_8">6dp</dimen>
+    <dimen name="im_10">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

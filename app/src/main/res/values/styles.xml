@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="styleProgressDialog" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:tint">@color/teal_700</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="bto_fonte">
+        <item name="android:textColor">@color/colorPreto</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bto_fontt">
+        <item name="android:textColor">@color/colorVerdeFonte</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bto_texto">
+        <item name="android:textColor">@color/colorVerdeFonte</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+    </style>
+
+    <style name="bto_textob">
+        <item name="android:textColor">@color/colorPreto</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bto_alerta">
+        <item name="android:textColor">@color/colorVermelho</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="bto_alertas">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="txt_alertas">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textColor">@color/colorBranco</item>
+    </style>
+
+    <style name="txt_alertass">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tx_14</item>
+        <item name="android:textColor">@color/colorPreto</item>
+    </style>
+
+    <style name="bto_menu">
+        <item name="android:textSize">@dimen/tx_16</item>
+        <item name="android:textColor">@color/colorRpayf</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">10dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

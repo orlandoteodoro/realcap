@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layRel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtN"
+            style="@style/bto_textob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtRel"
+            style="@style/bto_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/rel_vendedorsub"
+            app:layout_constraintEnd_toStartOf="@+id/txtN"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtN">
+
+            <RadioButton
+                android:id="@+id/rdVendas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rel_vendas" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/rdPromocao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rel_promocao" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup9"
+            app:srcCompat="?attr/actionModeSplitBackground" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@mipmap/ic_dinheiro" />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/bto_fonte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/rel_detdnheiro"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+            app:layout_constraintStart_toEndOf="@+id/imageView18"
+            app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18">
+
+            <TextView
+                android:id="@+id/txtD1"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_dom"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSc"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_seg"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtCt"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_ter"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQa"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_qua"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQu"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_qui"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSt"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_sex"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtS"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_sab"
+                android:textAlignment="center" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+            <TextView
+                android:id="@+id/txtDom"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSeg"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtTer"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQua"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQui"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSex"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSab"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
+            app:srcCompat="@color/colorVerdeFonte" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView19"
+            app:srcCompat="@mipmap/ic_cartao" />
+
+        <TextView
+            android:id="@+id/textView21"
+            style="@style/bto_fonte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/rel_detcartao"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/txtC1"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_dom"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtCars"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_seg"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtCart"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_ter"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQac"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_qua"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQuc"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_qui"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtStc"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_sex"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtScc"
+                style="@style/bto_texto"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_sab"
+                android:textAlignment="center" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup3">
+
+            <TextView
+                android:id="@+id/txtDomC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSegC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtTerC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQuaC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtQuiC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSexC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtSabC"
+                style="@style/bto_textob"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rel_vendapd"
+                android:textAlignment="center" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup4"
+            app:srcCompat="@color/colorVerdeFonte" />
+
+        <Button
+            android:id="@+id/btRelatorio"
+            style="@style/bto_fonte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/btpadrao"
+            android:text="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorVermelho"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btRelatorio" />
+
+        <ImageView
+            android:id="@+id/imageVfechar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

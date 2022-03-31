@@ -1,0 +1,64 @@
+<resources>
+    <!-- Estados -->
+    <string-array name="goias_array">Estados">
+        <item>SELECIONE</item>
+        <item>GOIÁS</item>
+        <item>ACRE</item>
+        <item>ALAGOAS</item>
+        <item>AMAPÁ</item>
+        <item>AMAZONAS</item>
+        <item>BAHIA</item>
+        <item>CEARÁ</item>
+        <item>DISTRITO FEDERAL</item>
+        <item>ESPÍRITO SANTO</item>
+        <item>MARANHÃO</item>
+        <item>MATO GROSSO</item>
+        <item>MATO GROSSO DO SUL</item>
+        <item>MINAS GERAIS</item>
+        <item>PARÁ</item>
+        <item>PARAÍBA</item>
+        <item>PARANÁ</item>
+        <item>PERNAMBUCO</item>
+        <item>PIAUÍ</item>
+        <item>RIO DE JANEIRO</item>
+        <item>RIO GRANDE DO NORTE</item>
+        <item>RIO GRANDE DO SUL</item>
+        <item>RONDÔNIA</item>
+        <item>RORAÍMA</item>
+        <item>SANTA CATARINA</item>
+        <item>SÃO PAULO</item>
+        <item>SERGIPE</item>
+        <item>TOCANTINS</item>
+    </string-array>
+
+    <string-array name="mg_array">Estados">
+        <item>MUDOU</item>
+        <item>GOIÁS</item>
+        <item>ACRE</item>
+        <item>ALAGOAS</item>
+        <item>AMAPÁ</item>
+        <item>AMAZONAS</item>
+        <item>BAHIA</item>
+        <item>CEARÁ</item>
+        <item>DISTRITO FEDERAL</item>
+        <item>ESPÍRITO SANTO</item>
+        <item>MARANHÃO</item>
+        <item>MATO GROSSO</item>
+        <item>MATO GROSSO DO SUL</item>
+        <item>MINAS GERAIS</item>
+        <item>PARÁ</item>
+        <item>PARAÍBA</item>
+        <item>PARANÁ</item>
+        <item>PERNAMBUCO</item>
+        <item>PIAUÍ</item>
+        <item>RIO DE JANEIRO</item>
+        <item>RIO GRANDE DO NORTE</item>
+        <item>RIO GRANDE DO SUL</item>
+        <item>RONDÔNIA</item>
+        <item>RORAÍMA</item>
+        <item>SANTA CATARINA</item>
+        <item>SÃO PAULO</item>
+        <item>SERGIPE</item>
+        <item>TOCANTINS</item>
+    </string-array>
+</resources>

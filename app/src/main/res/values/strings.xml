@@ -1,0 +1,242 @@
+<resources>
+    <!--comuns-->
+    <string name="app_name">Real Cap</string>
+    <string name="app_server">http://realcapserver.com.br/api/v2/corporativo/</string>
+    <string name="app_versao">60</string>
+    <string name="app_versao_name">6.0</string>
+
+    <!--hint-->
+    <string name="hint_codigo">CÓDIGO</string>
+    <string name="hint_senha">SENHA</string>
+    <string name="hint_sub">NOME E SOBRENOME</string>
+    <string name="hint_referencia">REFERENCIA</string>
+
+    <!--botões-->
+    <string name="botao_logar">LOGAR</string>
+    <string name="botao_ok">OK</string>
+    <string name="botao_checar_pix">CHECAR PAGAMENTO</string>
+    <string name="botao_confirma">SIM</string>
+    <string name="botao_cancelar">CANCELAR</string>
+    <string name="botao_ativar_sub">ATIVAR SUBVENDEDOR</string>
+    <string name="botao_desativar_sub">DESATIVAR SUBVENDEDOR</string>
+    <string name="botao_gerar_sub">GERAR SUBVENDEDOR</string>
+
+    <!--textos de alerta-->
+    <string name="txt_login_subvendedor">LOGIN SUBVENDEDOR</string>
+    <string name="txt_senha_incorreta">DIGITE CORRETAMENTE SEU CÓDIGO E SENHA</string>
+    <string name="txt_bem_vindo">Bem vindo:</string>
+    <string name="log_iniciarprocesso">(Para iniciar o processo de registro da\ncartela Real Cap clique no Ícone de qr code acima)</string>
+    <string name="log_escanear">ESCANEAR QR CODE</string>
+    <string name="log_reimprimir">REIMPRIMIR</string>
+    <string name="log_checar_recibo">CHECAR RECIBO</string>
+    <string name="log_relatorio">RELATÓRIOS</string>
+    <string name="log_confirma">CONFIRMAR</string>
+    <string name="log_cancela">CANCELAR</string>
+    <string name="log_reativado">VENDEDOR REATIVADO</string>
+    <string name="log_desativado">VENDEDOR DESATIVADO</string>
+    <string name="log_provisorio">PROVISORIO</string>
+    <string name="log_promocao">PROMOÇÃO</string>
+    <string name="txt_proscaneie">Escaneie o Qr Code abaixo com o app RealCap para realizar login no sistema, como SubVendedor</string>
+
+    <!--strings extras-->
+    <string name="sca_instrucoes">Direcione o leitor corretamente\npara o QR Code</string>
+    <string name="ok">OK</string>
+    <string name="sub_tempo">Ativo até:</string>
+    <string name="sub_atvhj">Hoje</string>
+    <string name="sub_atved">Esta edição</string>
+    <string name="aju_aviso">Por favor selecione o dispositivo no qual você está instalou o aplicativo Real Cap</string>
+    <string name="aju_meu">Meu celular (o comprovante será enviado via sms)</string>
+    <string name="aju_maquina">Máquina Real Cap, com impressora (o comprovante será impresso)</string>
+
+
+    <!--CARRINHO-->
+    <string name="carpasso">1º Escaneie os Recibos Real Cap</string>
+    <string name="finpasso">2º Insira os Dados do Cliente</string>
+    <string name="carcontr">R. Contribuição</string>
+    <string name="cargrati">R. Grátis</string>
+    <string name="carbtose">SEGUINTE</string>
+    <string name="caradici">Adicionar Recibos</string>
+    <string name="cartotal">Total: </string>
+    <string name="cartotac">TOTAL: </string>
+    <string name="cartotun"> Recibo(s)</string>
+
+    <!--Alertas-->
+    <string name="ale_semconexao">SEM CONEXÃO COM A INTERNET</string>
+    <string name="ale_errologindes">ERRO AO EFETUAR LOGIN\nTENTE NOVAMENTE</string>
+    <string name="ale_errologinsen">CÓDIGO OU SENHA INCORRETOS</string>
+    <string name="ale_senhasnaoconferem">SENHAS NÃO CONFEREM</string>
+    <string name="ale_senhaalterada">SENHA ALTERADA COM\nSUCESSO</string>
+    <string name="ale_digitecorretamente">DIGITE CORRETAMENTE\nSEU CÓDIGO E SENHA</string>
+    <string name="ale_alterarsenha">Para continuar é necessário alterar sua senha.\nDigite sua nova senha nos campos abaixo.\n\nATENÇÃO, sua nova senha deve conter\nentre 4 e 8 caracteres.</string>
+    <string name="ale_sucessoimpressao">COMPROVANTE IMPRESSO</string>
+    <string name="ale_conexao">QR CODE NÃO RECONHECIDO</string>
+    <string name="ale_promocao">VALOR PROMOCIONAL APLICADO! R$ 50,00</string>
+
+    <string name="turn_off_flashlight">Desligar Flash</string>
+    <string name="turn_on_flashlight">Ligar Flash</string>
+    <string name="ale_escaneargratis">ESCANEAR RECIBO GRÁTIS</string>
+    <string name="ale_recibojaregistrado">RECIBO JÁ REGISTRADO</string>
+    <string name="ale_edicaoencerrada">EDIÇÃO ENCERRADA</string>
+    <string name="ale_edicaosorteada">EDIÇÃO JÁ SORTEADA</string>
+    <string name="ale_falhaconexao">FALHA AO CONECTAR COM O SERVIDOR\nVERIFIQUE SUA CONEXÃO</string>
+    <string name="ale_vendasencerradasedicao">VENDAS ENCERRADAS\nPARA ESTA EDIÇÃO</string>
+    <string name="ale_vendasencerradasvendedor">VENDAS ENCERRADAS\nCONTATE SEU REGIONAL</string>
+    <string name="ale_recibojaescaneado">RECIBO JÁ ESCANEADO</string>
+    <string name="ale_qrcodenaoreconhecio">QR CODE NÃO RECONHECIDO</string>
+    <string name="ale_edicaonaodisponivel">EDIÇÃO NÃO DISPONÍVEL</string>
+    <string name="ale_edicaojasorteada">EDIÇÃO JÁ SORTEADA</string>
+    <string name="ale_erroservidor">ERRO AO CONTATAR SERVIDOR</string>
+    <string name="ale_cancelarvenda">DESCARTAR ESCANEAMENTO?</string>
+    <string name="ale_recibonaoencontrado">Recibo não encontrado</string>
+    <string name="ale_naofoipossivelreconhe">QR Code não reconhecido.</string>
+    <string name="ale_chaveexpirada">Chave de Acesso expirada\nFaça Login novamente.</string>
+    <string name="ale_camposobrigatorios">PREENCHA TODOS OS CAMPOS\nOBRIGATÓRIOS</string>
+    <string name="ale_erroescanear">ERRO AO REGISTRAR\nESCANEIE NOVAMENTE</string>
+    <string name="ale_veninativo">SEU CÓDIGO ESTÁ INATIVO\nCONTATE SEU REGIONAL</string>
+    <string name="ale_vendasencerradas">ERRO (VENDEDOR INATIVO)\nCONTATE SEU REGIONAL</string>
+    <string name="ale_confirmardinheiro">CONFIRMAR RECEBIMENTO EM DINHEIRO\nE REGISTRAR VENDA?</string>
+    <string name="ale_confirmarpix">CONFIRMAR GERAÇÃO DE PIX PARA PAGAMENTO?</string>
+    <string name="ale_atualizacao">Você Precisa Atualizar Seu Aplicativo Para Continuar!</string>
+
+    //finalizar
+    <string name="log_futebol">FUTEBOL</string>
+    <string name="log_receber">RECEBER</string>
+    <string name="log_sair">SAIR</string>
+    <string name="log_aguarde">Contatando servidor, Aguarde</string>
+    <string name="ven_selagemonline">SELAGEM ON-LINE</string>
+    <string name="ven_recibos">Recibos:</string>
+    <string name="ven_edicao">Edição:</string>
+    <string name="ven_edpadrao">000</string>
+    <string name="ven_repadrao">0000000</string>
+    <string name="ven_dipadrao">0</string>
+    <string name="ven_traco">-</string>
+    <string name="ven_barra">/</string>
+    <string name="ven_iniciocad">Insira o DDD e o Celular do cliente.</string>
+    <string name="ven_nome">Nome Completo *</string>
+    <string name="ven_cpf">CPF</string>
+    <string name="ven_endereco">Endereço *</string>
+    <string name="ven_complemento">Complemento</string>
+    <string name="ven_bairro">Bairro *</string>
+    <string name="ven_cidade">Cidade *</string>
+    <string name="ven_receber">RECEBER</string>
+    <string name="ven_dinheiro">DINHEIRO</string>
+    <string name="ven_cartao">CARTÃO</string>
+    <string name="ven_qrcode">QR CODE</string>
+    <string name="ven_vendedor">VENDEDOR:</string>
+    <string name="ven_cartfalha">O PAGAMENTO POR CARTÃO FOI RECUSADO\nDESEJA OPTAR POR PAGAMENTO EM DINHEIRO\nOU TENTAR NOVAMENTE?</string>
+    <string name="ven_cancfalha">O CANCELAMENTO FALHOU\nDESEJA TENTAR NOVAMENTE?</string>
+    <string name="ven_logifalha">OCORREU UM ERRO AO LOGAR NA REDE\nERRO 9011</string>
+    <string name="ven_pagdinhei">PAGAMENTO EM DINHEIRO</string>
+    <string name="ven_pagcartao">PAGAMENTO EM CARTÃO\nDoc. N.:</string>
+    <string name="ven_pix">PIX</string>
+    <string name="ale_atu">ATUALIZE A CIDADE E O ESTADO DO CLIENTE</string>
+    <string name="ven_valor">TOTAL A RECEBER: </string>
+
+    <!--Hints-->
+    <string name="hin_codigo">Código</string>
+    <string name="hin_senha">Senha</string>
+    <string name="hin_nsenha">Nova Senha</string>
+    <string name="hin_rsenha">Repetir Senha</string>
+    <string name="hin_ddd">DDD</string>
+    <string name="hin_celular">CELULAR</string>
+
+    <!--tela do recibo-->
+    <string name="re_cabecario">REALCAP - A MARCA DA SORTE</string>
+    <string name="re_endereco">RUA 1012, 901, QD 47, LOTES 1 E 2</string>
+    <string name="re_cnpj">CNPJ: 11.277.353/0001-50</string>
+    <string name="re_recibop">RECIBO CONT.:</string>
+    <string name="re_recibog">RECIBO GRAT.:</string>
+    <string name="re_recibov">RECIBO VIP.:</string>
+    <string name="re_edicao">ED.:</string>
+    <string name="re_nome">NOME:</string>
+    <string name="re_telefone">TELEFONE:</string>
+    <string name="re_autenticacao">AUT. ELETRONICA:</string>
+    <string name="re_agradecimento">OBRIGADO PELA CONFIANÇA E BOA SORTE</string>
+
+    <!--selagem online-->
+    <string name="txt_cartelas">CARTELAS</string>
+    <string name="txt_clientes">CLIENTES</string>
+    <string name="txt_imprimir">IMPRIMIR</string>
+    <string name="txt_sms">SMS ENVIADO PARA O CELULAR CADASTRADO</string>
+    <string name="txt_suces">RECIBO REGISTRADO COM SUCESSO</string>
+    <string name="txt_impcliente">CLIENTE:</string>
+    <string name="txt_impfone">TELEFONE:</string>
+    <string name="txt_impedicao">EDIÇÃO:</string>
+    <string name="txt_impcartela">RECIBOS:</string>
+    <string name="txt_imptemp">---</string>
+    <string name="txt_impe">E</string>
+    <string name="txt_impaut">AUT. ELETRÔNICA:</string>
+
+    <!--Relatório-->
+    <string name="rel_vendas">VENDAS</string>
+    <string name="rel_promocao">PROMOÇÃO</string>
+    <string name="rel_vendapd">000</string>
+    <string name="rel_nomefan">Nome</string>
+    <string name="rel_referen">Referência</string>
+    <string name="rel_vendedo">Vendedor:</string>
+    <string name="rel_vendedorsub">Subvendedor</string>
+    <string name="rel_edicaos">Edição:</string>
+    <string name="rel_total">| Total de Vendas:</string>
+    <string name="rel_dom">DOM</string>
+    <string name="rel_seg">SEG</string>
+    <string name="rel_ter">TER</string>
+    <string name="rel_qua">QUA</string>
+    <string name="rel_qui">QUI</string>
+    <string name="rel_sex">SEX</string>
+    <string name="rel_sab">SAB</string>
+    <string name="rel_instrcanho">Abaixo você pode editar como suas\ninformaçoes serão impressass no canhoto do
+        cliente.
+    </string>
+    <string name="rel_detalhado">Detalhamento de Vendas</string>
+    <string name="rel_detdnheiro">Total de Vendas em dinheiro</string>
+    <string name="rel_detcartao">Total de vendas por cartão/Pix</string>
+    <string name="bto_salvar">SALVAR</string>
+    <string name="rel_subvendedor">Toque na linha referente ao subvendedor que deseja verificar para exibir as opções.</string>
+    <string name="bto_atualizacao">Clique Aqui Para Atualizar</string>
+
+
+    <!--Impressão-->
+    <string name="imp_cabe">REAL CAP</string>
+    <string name="imp_titu">REAL CAP - A MARCA DA SORTE</string>
+    <string name="imp_segu">RUA 1012, 901, QD 47, LOTES 1 E 2</string>
+    <string name="imp_trac">---------------------------------------</string>
+    <string name="imp_aute">AUT. ELETRONICA</string>
+    <string name="imp_boas">BOA SORTE</string>
+    <string name="imp_voltar">VOLTAR PARA O ÍNICIO</string>
+
+    <string name="pg_btpd">OPER</string>
+    <string name="pg_btconfirma">CONFIRMAR</string>
+
+    <!-- Estados -->
+    <string name="linguagem_prompt">Estado</string>
+    <string-array name="linguagens">
+        <item>GOIAS</item>
+        <item>ACRE</item>
+        <item>ALAGOAS</item>
+        <item>AMAPA</item>
+        <item>AMAZONAS</item>
+        <item>BAHIA</item>
+        <item>CEARA</item>
+        <item>DISTRITO FEDERAL</item>
+        <item>ESPIRITO SANTO</item>
+        <item>MARANHAO</item>
+        <item>MATO GROSSO</item>
+        <item>MATO GROSSO DO SUL</item>
+        <item>MINAS GERAIS</item>
+        <item>PARA</item>
+        <item>PARAIBA</item>
+        <item>PARANA</item>
+        <item>PERNAMBUCO</item>
+        <item>PIAUI</item>
+        <item>RIO DE JANEIRO</item>
+        <item>RIO GRANDE DO NORTE</item>
+        <item>RIO GRANDE DO SUL</item>
+        <item>RONDONIA</item>
+        <item>RORAIMA</item>
+        <item>SANTA CATARINA</item>
+        <item>SAO PAULO</item>
+        <item>SERGIPE</item>
+        <item>TOCANTINS</item>
+    </string-array>
+
+</resources>
