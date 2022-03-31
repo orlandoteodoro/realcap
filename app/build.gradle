@@ -40,8 +40,8 @@ repositories {
     maven {
         url  "https://paxbr.bintray.com/maven"
         credentials {
-            username 'luccas-melo'
-            password 'e40eb18b40799df7aa41c18f4cfdda5ccdde4213'
+            username ''
+            password ''
         }
     }
     flatDir {
